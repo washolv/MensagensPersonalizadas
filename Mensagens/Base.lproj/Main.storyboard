@@ -333,7 +333,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="145-Nc-C5W"/>
                     <connections>
+                        <outlet property="lbMessage" destination="XmB-Rj-xcq" id="vMq-Gg-Etg"/>
                         <outlet property="viBorder" destination="Osj-Pv-VSb" id="kmC-nR-OuL"/>
+                        <outlet property="view" destination="IWO-YS-1d9" id="gL9-Q3-RSE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J1l-e4-t9V" userLabel="First Responder" sceneMemberID="firstResponder"/>

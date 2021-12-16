@@ -20,6 +20,7 @@ class ResultViewController: BaseViewController {
         lbMessage.textColor = message.textColor
         lbMessage.backgroundColor = message.backgroundColor
         viBorder.backgroundColor = useWhiteBorder ? .white : .clear
+        view.backgroundColor = message.screenColor
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

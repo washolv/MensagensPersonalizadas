@@ -29,7 +29,6 @@ class ScreenColorViewController: BaseViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! ResultViewController
         vc.message = message
-        vc.lbMessage = lbMessage
         vc.useWhiteBorder = swWhiteBorder.isOn
     }
 }
